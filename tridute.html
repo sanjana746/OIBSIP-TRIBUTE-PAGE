@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tribute to Mahatma Gandhi</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f0f6f5, #e6f2f0);
+    margin: 0; color: #2c3e50; line-height: 1.7;
+  }
+  header {
+    background: #006400;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  }
+  header h1 {
+    margin: 0;
+    font-size: 3rem;
+  }
+  header p {
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 1.3rem;
+    opacity: 0.85;
+  }
+  main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  figure {
+    text-align: center;
+    margin: 0;
+  }
+  figure img {
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+    transition: transform 0.3s ease;
+  }
+  figure img:hover {
+    transform: scale(1.05);
+  }
+  figcaption {
+    margin-top: 12px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  section {
+    margin-top: 50px;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 1s forwards;
+  }
+  section:nth-child(3) { animation-delay: 0.2s; }
+  section:nth-child(4) { animation-delay: 0.4s; }
+  section:nth-child(5) { animation-delay: 0.6s; }
+  section:nth-child(6) { animation-delay: 0.8s; }
+  section:nth-child(7) { animation-delay: 1s; }
+  section:nth-child(8) { animation-delay: 1.2s; }
+  h2 {
+    border-bottom: 3px solid #006400;
+    padding-bottom: 10px;
+    color: #006400;
+    margin-bottom: 20px;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  ul li {
+    margin-bottom: 12px;
+  }
+  .timeline {
+    border-left: 3px solid #006400;
+    margin-left: 10px;
+    padding-left: 20px;
+  }
+  .timeline-item {
+    margin-bottom: 25px;
+    position: relative;
+  }
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -12px;
+    top: 5px;
+    width: 15px;
+    height: 15px;
+    background: #006400;
+    border-radius: 50%;
+  }
+  blockquote {
+    background: #d8efd8;
+    border-left: 5px solid #006400;
+    margin: 20px 0;
+    padding: 15px 20px;
+    font-style: italic;
+    color: #004d00;
+    border-radius: 6px;
+  }
+  footer {
+    background: #006400;
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+    margin-top: 70px;
+    font-size: 0.9rem;
+    opacity: 0.85;
+  }
+  a {
+    color: #006400;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 2rem;
+    }
+    main {
+      margin: 20px;
+    }
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Mahatma Gandhi</h1>
+    <p>"Be the change that you wish to see in the world."</p>
+  </header>
+  <main>
+    <figure>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Portrait_Gandhi.jpg" alt="Mahatma Gandhi" />
+      <figcaption>Mahatma Gandhi, circa 1930</figcaption>
+    </figure>
+
+    <section>
+      <h2>Early Life and Education</h2>
+      <p>Mohandas Karamchand Gandhi was born on October 2, 1869, in Porbandar, a coastal town in present-day Gujarat, India. Raised in a Hindu merchant caste family, Gandhi was deeply influenced by the religious and moral teachings of his mother and Jainism. At 19, he traveled to London to study law at University College London.</p>
+    </section>
+
+    <section>
+      <h2>Biography</h2>
+      <p>Gandhi became a lawyer and initially struggled professionally in India. He then went to South Africa in 1893, where he faced racial discrimination firsthand. This experience sparked his activism, leading him to develop the philosophy of Satyagraha, or nonviolent resistance, to fight injustice.</p>
+    </section>
+
+    <section>
+      <h2>Philosophy and Impact</h2>
+      <p>Gandhi's philosophy was centered on nonviolence (ahimsa), truth (satya), and civil disobedience. His approach emphasized peaceful protests and noncooperation to bring about political and social change. This inspired movements for civil rights and freedom worldwide, including leaders like Martin Luther King Jr. and Nelson Mandela.</p>
+    </section>
+
+    <section>
+      <h2>Major Movements</h2>
+      <div class="timeline">
+        <div class="timeline-item"><strong>1915:</strong> Returned to India from South Africa to join the Indian National Congress.</div>
+        <div class="timeline-item"><strong>1919:</strong> Opposed the Rowlatt Act and led nationwide protests.</div>
+        <div class="timeline-item"><strong>1930:</strong> Led the 240-mile Salt March to Dandi to protest the British salt tax.</div>
+        <div class="timeline-item"><strong>1942:</strong> Launched the Quit India Movement demanding British withdrawal.</div>
+        <div class="timeline-item"><strong>1947:</strong> India gained independence, largely due to his leadership.</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Legacy</h2>
+      <p>Gandhi's legacy remains powerful. He is remembered as the "Father of the Nation" in India. His birthday, October 2nd, is commemorated worldwide as the International Day of Non-Violence. His principles continue to influence global peace and justice efforts.</p>
+    </section>
+
+    <section>
+      <h2>Famous Quotes</h2>
+      <blockquote>"The best way to find yourself is to lose yourself in the service of others."</blockquote>
+      <blockquote>"An eye for an eye only ends up making the whole world blind."</blockquote>
+      <blockquote>"You may never know what results come of your actions, but if you do nothing, there will be no results."</blockquote>
+      <blockquote>"Happiness is when what you think, what you say, and what you do are in harmony."</blockquote>
+    </section>
+
+    <section>
+      <h2>Learn More</h2>
+      <p>Discover more about Mahatma Gandhi on <a href="https://en.wikipedia.org/wiki/Mahatma_Gandhi" target="_blank" rel="noopener noreferrer">his Wikipedia page</a> and <a href="https://www.mkgandhi.org/" target="_blank" rel="noopener noreferrer">The Gandhi Heritage Portal</a>.</p>
+    </section>
+  </main>
+  <footer>
+    Created as a tribute page; 2025
+  </footer>
+</body>
+</html>
+
+
